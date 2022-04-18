@@ -1,0 +1,13 @@
+title = "HyperParameters"
+
+['lidar']
+lower_fov = -25.0
+upper_fov = 5.0
+num = 4
+channels = 16.0
+x = [-0.4, -0.4, 0.2, 0.2]
+y = [0.2, -0.2, 0.5, -0.5]
+z = [2.2, 2.2, 2.2, 2.2]
+roll = [0.0, 0.0, 0.0, 0.0]
+pitch = [0.0, 0.0, 0.0, 0.0]
+

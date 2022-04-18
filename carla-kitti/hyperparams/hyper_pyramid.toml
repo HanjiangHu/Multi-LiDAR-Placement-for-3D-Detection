@@ -1,0 +1,13 @@
+title = "HyperParameters"
+
+[paths]
+output = "../dataset/pyramid/"
+
+[lidar]
+lower_fov = -25.0
+upper_fov = 5.0
+nos = 4
+channels = 16.0
+
+[occupancy]
+path = "../../S_MIG/routes/pyramid"

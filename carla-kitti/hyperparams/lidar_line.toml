@@ -1,0 +1,27 @@
+title = "HyperParameters"
+
+# Default: ['lidar'] is the original line placement, ['lidar_roll'] is the line placement with roll angle
+# the default is to use the original line placement, exchange ['lidar'] and ['lidar_roll'] to use the line placement with roll angle
+
+['lidar']
+lower_fov = -25.0
+upper_fov = 5.0
+num = 4
+channels = 16.0
+x = [0.0, 0.0, 0.0, 0.0]
+y = [-0.6, -0.4, 0.4, 0.6]
+z = [2.2, 2.2, 2.2, 2.2]
+roll = [0.0, 0.0, 0.0, 0.0]
+pitch = [0.0, 0.0, 0.0, 0.0]
+
+
+['lidar_roll']
+lower_fov = -25.0
+upper_fov = 5.0
+num = 4
+channels = 16.0
+x = [0.0, 0.0, 0.0, 0.0]
+y = [-0.6, -0.4, 0.4, 0.6]
+z = [2.2, 2.2, 2.2, 2.2]
+roll = [-0.28, 0.0, 0.0, 0.28]
+pitch = [0.0, 0.0, 0.0, 0.0]
