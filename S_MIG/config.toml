@@ -1,8 +1,7 @@
 title = "Configuration"
 
 
-# ['config']: 0: 'square', 1: 'center', 2: 'line', 3: 'pyramid', 4: 'trapezoid', 5: 'line_roll', 6: 'pyramid_roll',
-            7: 'pyramid_pitch'
+# ['config']: 0: 'square', 1: 'center', 2: 'line', 3: 'pyramid', 4: 'trapezoid', 5: 'line_roll', 6: 'pyramid_roll', 7: 'pyramid_pitch'
 
 ['config']
 0 = [29.5, 20.5, 2.2, 0.0, 0.0, 29.5, 19.5, 2.2, 0.0, 0.0, 30.5, 20.5, 2.2, 0.0, 0.0, 30.5, 19.5, 2.2, 0.0, 0.0]

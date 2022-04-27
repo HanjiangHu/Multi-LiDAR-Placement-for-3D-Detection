@@ -33,20 +33,21 @@ import toml
 
 # fill in the following with the absolution paths
 sys.path.append(
-    "XXX/carla/PythonAPI/carla/dist/carla-0.9.10-py3.7-linux-x86_64.egg"
+    "../../carla/PythonAPI/carla/dist/carla-0.9.10-py3.7-linux-x86_64.egg"
 )
 
 sys.path.append(
-    "XXX/carla/PythonAPI/carla/agents"
+    "../../carla/PythonAPI/carla/agents"
 )
 sys.path.append(
-    "XXX/carla/PythonAPI/carla"
+    "../../carla/PythonAPI/carla"
 )
 sys.path.append(
-    "XXX/carla/PythonAPI"
+    "../../carla/PythonAPI"
 )
-os.environ['CARLA_ROOT'] = 'XXX/carla'
-os.environ['SCENARIO_RUNNER_ROOT'] = 'YYY/Multi-LiDAR-Placement-for-3D-Detection/carla-kitti/scenario_runner'
+os.environ['CARLA_ROOT'] = '../../carla'
+os.environ['SCENARIO_RUNNER_ROOT'] = './'
+
 
 import carla
 
@@ -988,7 +989,6 @@ class ScenarioRunner(object):
     def process_multilidar_multibeam_data(self, data, datapoints):
         points = []
         for i in range(self.lidar.num):
-            print("lidar index: ",i)
             point_cloud = np.copy(
                 np.frombuffer(data["points"][f"l_{i}"].raw_data, dtype=np.dtype("f4"))
             )

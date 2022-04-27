@@ -128,3 +128,18 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .idea
+comments.txt
+./OpenPCDet/spconv/build
+./OpenPCDet/spconv/dist
+./OpenPCDet/spconv/spconv.egg-info
+./OpenPCDet/build
+./OpenPCDet/pcdet.egg-info
+carla
+CARLA*
+carla-kitti/dataset/*/
+carla-kitti/logs/*.out
+OpenPCDet/data/*/
+OpenPCDet/output
+S_MIG/routes/*/
+
+

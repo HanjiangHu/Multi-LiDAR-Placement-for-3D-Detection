@@ -46,7 +46,7 @@ if __name__ == "__main__":
     ).create_data_from_logs(
         "./routes/square/vehicle"
     )
-
+    print(111)
     pom_car = pom_car.astype(float) / num_valid_frames_car
 
     pom_ped, num_valid_frames_ped = POM(

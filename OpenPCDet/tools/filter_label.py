@@ -52,9 +52,14 @@ for item in label_items:
     with open(root_path + "/ImageSets/val.txt","a") as f:
         f.write(item.split('/')[-1].split('.')[-2])
         f.write('\n')
+if os.path.exists(root_path+'/kitti_dbinfos_train.pkl'):
+    os.remove(root_path+'/kitti_dbinfos_train.pkl')
+if os.path.exists(root_path+'/kitti_infos_test.pkl'):
+    os.remove(root_path+'/kitti_infos_test.pkl')
+if os.path.exists(root_path+'/kitti_infos_train.pkl'):
+    os.remove(root_path+'/kitti_infos_train.pkl')
+if os.path.exists(root_path+'/kitti_infos_val.pkl'):
+    os.remove(root_path+'/kitti_infos_val.pkl')
+if os.path.exists(root_path+'/gt_database'):
+    shutil.rmtree(root_path+'/gt_database')
 
-os.remove(root_path+'/kitti_dbinfos_train.pkl')
-os.remove(root_path+'/kitti_infos_test.pkl')
-os.remove(root_path+'/kitti_infos_train.pkl')
-os.remove(root_path+'/kitti_infos_val.pkl')
-shutil.rmtree(root_path+'/gt_database')
