@@ -22,7 +22,7 @@ Different LiDAR configurations can be accessed at `./carla-kitti/hyperparams`. T
 
 
 ## Model Training and Testing
-To split the training and test set for the experiment, copy  `./OpenPCDet/tools/split_training_test.py` to the root path of the collected dataset (e.g. `./carla-kitti/dataset/center/`) and run it under that path. Then filter the useless bounding boxes labels in KITTI format through the following command, e.g.
+To split the training and test set for the experiment, copy  `./OpenPCDet/tools/split_training_test.py` to the root path of the collected dataset (e.g. `./carla-kitti/dataset/center/`) and run `split_training_test.py` under that path. Then filter the useless bounding boxes labels in KITTI format through the following command, e.g.
 
 `python ./OpenPCDet/tools/filter_label.py -r ./carla-kitti/dataset/center/`
 
