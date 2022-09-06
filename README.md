@@ -52,15 +52,16 @@ Make sure that POG in `./S_MIG/routes/` is not empty after the data collection s
 If you use this code in your own work, please cite this paper:
 
 H. Hu*, Z. Liu*, S. Chitlangia, A. Agnihotri and D. Zhao
-"[Investigating the Impact of Multi-LiDAR Placement on Object Detection for Autonomous Driving](https://arxiv.org/abs/2105.00373)", CVPR 2022
+"[Investigating the Impact of Multi-LiDAR Placement on Object Detection for Autonomous Driving](https://openaccess.thecvf.com/content/CVPR2022/html/Hu_Investigating_the_Impact_of_Multi-LiDAR_Placement_on_Object_Detection_for_CVPR_2022_paper.html)", CVPR 2022
 
 ```
-@article{hu2021investigating,
-  title={Investigating the Impact of Multi-LiDAR Placement on Object Detection for Autonomous Driving},
-  author={Hu, Hanjiang and Liu, Zuxin and Chitlangia, Sharad and Agnihotri, Akhil and Zhao, Ding},
-  journal={arXiv e-prints},
-  pages={arXiv--2105},
-  year={2021}
+@InProceedings{Hu_2022_CVPR,
+    author    = {Hu, Hanjiang and Liu, Zuxin and Chitlangia, Sharad and Agnihotri, Akhil and Zhao, Ding},
+    title     = {Investigating the Impact of Multi-LiDAR Placement on Object Detection for Autonomous Driving},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {2550-2559}
 }
 ```
 
